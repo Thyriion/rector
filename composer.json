@@ -31,6 +31,7 @@
 		"typo3/cms-impexp": "^10.4.0",
 		"typo3/cms-info": "^10.4.0",
 		"typo3/cms-install": "^10.4.0",
+		"typo3/cms-introduction": "^4.3",
 		"typo3/cms-recordlist": "^10.4.0",
 		"typo3/cms-rte-ckeditor": "^10.4.0",
 		"typo3/cms-seo": "^10.4.0",
