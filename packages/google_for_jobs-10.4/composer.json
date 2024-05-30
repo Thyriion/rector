@@ -1,0 +1,30 @@
+{
+    "name": "pegasus/google-for-jobs",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 Extension for Google for Jobs.",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Michael Kunst",
+            "role": "Developer"
+        }
+    ],
+    "version": "2.1.1",
+    "require": {
+        "typo3/cms-core": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pegasus\\GoogleForJobs\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pegasus\\GoogleForJobs\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "google_for_jobs": "self.version",
+        "typo3-ter/google-for-jobs": "self.version"
+    }
+}

@@ -14,6 +14,7 @@
 	},
 	"require": {
 		"helhum/typo3-console": "^6.0.0",
+		"pegasus/google-for-jobs": "@dev",
 		"typo3/cms-about": "^10.4.0",
 		"typo3/cms-backend": "^10.4.0",
 		"typo3/cms-belog": "^10.4.0",
@@ -52,5 +53,11 @@
 	},
 	"require-dev": {
 		"ssch/typo3-rector": "^2.6"
-	}
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "./packages/*"
+		}
+	]
 }

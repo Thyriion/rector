@@ -56,3 +56,13 @@ a performance killer and may result in deadlocks if you execute too many request
 # License
 
 GPL-2.0 or later
+
+
+1. Repo clonen
+2. ddev start
+3. ddev exec composer install
+4. ddev exec touch public/FIRST_INSTALL
+5. ddev launch /typo3/install.php
+6. DB Connection: mysqli, Host: db, User: db, Password: db, Database: db, Port: 3306
+7. ddev exec typo3 extension:activate bootstrap_package 
+8. ddev exec typo3 extension:activate introduction

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c24483db539b09178d12d50d7530fa3",
+    "content-hash": "027a156354ac47dce7cfabd94ba1b99c",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1439,6 +1439,46 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.19.1"
             },
             "time": "2024-03-17T08:10:35+00:00"
+        },
+        {
+            "name": "pegasus/google-for-jobs",
+            "version": "2.1.1",
+            "dist": {
+                "type": "path",
+                "url": "./packages/google_for_jobs-10.4",
+                "reference": "70c65d4fb70b3aa8657759edaade194ec115d87f"
+            },
+            "require": {
+                "typo3/cms-core": "^10.4"
+            },
+            "replace": {
+                "google_for_jobs": "self.version",
+                "typo3-ter/google-for-jobs": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "Pegasus\\GoogleForJobs\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Pegasus\\GoogleForJobs\\Tests\\": "Tests"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Kunst",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TYPO3 Extension for Google for Jobs.",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -7588,7 +7628,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pegasus/google-for-jobs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
